@@ -1,0 +1,166 @@
+/* HEADER */
+header {
+    width: 100%;
+    height: 20vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 5vh;
+    margin-left: 0px;
+    margin-top: 1vh;
+    position:relative;
+}
+
+/* LOGO */
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#logo_img {
+    width: 70px;
+    height: 70px;
+    background-image: url('imagenes/brain-training_7432101.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo_texto {
+    color: whitesmoke;
+    font-size: 14pt;
+    font-weight: 650;
+    font-family: "Manrope", sans-serif;
+}
+
+#barra_navegacion {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#lista_botones {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    border-radius: 0.75rem;
+    border: 3px whitesmoke solid;
+    background-color: whitesmoke;
+}
+
+.boton_navegacion {
+    color: #181e50;
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: 650;
+    font-family: "Manrope", serif;
+    transition: ease 0.5s;
+}
+
+#boton_contacto {
+    border-radius: 20px;
+    padding: 0.8rem 1.5rem; 
+    color: whitesmoke;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: "Manrope", serif;
+    border: 3px solid whitesmoke;
+    margin: 0;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease 0.5s;
+}
+
+body {
+    width: 100vw;
+    height: 80vh;
+    overflow-x: hidden;
+    background-image: linear-gradient(180deg, #181e50, #2836ab, #3b50f0);
+    background-repeat:space;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+#contenedor_formas{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.forma_fondo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#fondo_1{
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0% 60%, 0% 100%, 100% 100%, 100% 90%);
+    z-index: -1;
+}
+
+#fondo_2{
+    background-color: #ffffffBF;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0% 50%, 0% 100%, 100% 100%, 100% 80%);
+    z-index: -2;
+}
+
+#fondo_3{
+    background-color: #ffffff80;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0% 40%, 0% 100%, 100% 100%, 100% 70%);
+    z-index: -3;
+}
+
+#fondo_4{
+    background-color: #ffffff40;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0% 30%, 0% 100%, 100% 100%, 100% 60%);
+    z-index: -4;
+}
+
+.boton_navegacion:hover {
+    background-color: #181e50;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#boton_contacto:hover {
+    color: #181e50;
+    border: 3px solid #181e50;
+    background-color: whitesmoke;
+}
