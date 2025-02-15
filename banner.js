@@ -5,7 +5,7 @@ const images = [
     'imagenes/banner/img_4.jpg'
   ];
   let currentIndex = 0;
-  const bannerImage = document.getElementById('banner-image');
+  const bannerImage = document.getElementById('img_banner');
   
 
   function changeImage() {
